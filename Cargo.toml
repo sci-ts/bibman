@@ -7,8 +7,7 @@ description = "A bibliography manager with automatic data fetching."
 readme = "README.md"
 homepage = "https://github.com/sci-ts/bibman"
 repository = "https://github.com/sci-ts/bibman"
-license = "MIT"
-license-file = "LICENSE"
+license-file = "LICENSE"                                             # MIT
 
 [dependencies]
 linked-hash-map = { version = "0.5.6", features = ["serde", "serde_impl"] }

@@ -1,6 +1,6 @@
 use std::{fs::OpenOptions, path::Path};
 
-use crate::entry::{Entry, EntryKind};
+use crate::entry::Entry;
 use linked_hash_map::LinkedHashMap;
 use serde::{Deserialize, Serialize};
 use std::io::Read;
